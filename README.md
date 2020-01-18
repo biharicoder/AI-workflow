@@ -20,7 +20,7 @@ Check that the image is there.
 ```
 Run the container
 ```bash
-docker run -p 4000:8080 example-ml-app
+docker run -p 4000:8080 capstone-project
 ```
 ## Test the running app
 First go to [http://0.0.0.0:4000/](http://0.0.0.0:4000/) to ensure the app is running and accessible.
