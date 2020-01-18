@@ -8,7 +8,7 @@
 * **Dockerfile**: Contains all the commands a user could call on the command line to assemble the docker image.
 * **app.py**: Flask app for creating a user interface /train and /predict APIs in order to train and predict respectively
 * **cslib.py**: A collection of functions that will transform the data set into features you can use to train a model.
-* **model.py**:  Provides you with a working solution (i.e., a model) for capstone part 2.
+* **model.py**:  A module having functions for training, loading a model and making predictions
 ## Build the Docker image and run it
 ```bash
     ~$ cd AI-workflow
@@ -24,5 +24,7 @@ docker run -p 4000:8080 capstone-project
 ```
 ## Test the running app
 First go to [http://0.0.0.0:4000/](http://0.0.0.0:4000/) to ensure the app is running and accessible.
+
 For training the model: [http://0.0.0.0:4000/train](http://0.0.0.0:4000/train)
+
 For making predictions using the model: [http://0.0.0.0:4000/predict](http://0.0.0.0:4000/predict)
