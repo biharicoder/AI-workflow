@@ -5,5 +5,5 @@ flask
 pandas
 numpy
 requests
-scikit-learn==0.21.2
+scikit-learn==1.5.0
 matplotlib
